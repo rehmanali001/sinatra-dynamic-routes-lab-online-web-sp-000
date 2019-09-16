@@ -35,4 +35,5 @@ class App < Sinatra::Base
       divide = params[:number1].to_f / params[:number2].to_f
       divide.to_s
     end
+  end
 end
